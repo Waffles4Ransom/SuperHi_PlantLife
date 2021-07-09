@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:regular,italic');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+body {
+  font-family: "IBM PLex Mono";
+  font-size: 16px;
+  line-height: 1.6;
+
+  background-color: #ffffff;
+  color: #2a2a2a;
+}
+
+h1 {
+  font-family: 'Merriweather';
+  font-size: 48px;
+  line-height: 1.2;
+}
