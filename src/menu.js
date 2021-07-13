@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   toggleTag.addEventListener('click', () => {
     mainTag.classList.toggle("open")
-    mainTag.classList.contains('open') ? toggleTag.innerHTML = `<img src="assets/images/close.svg"> Close` : toggleTag.innerHTML = `<img src="assets/images/menu.svg"> Menu`
+    mainTag.classList.contains('open') ? toggleTag.innerHTML = `<img src="assets/images/close.svg"> CLOSE` : toggleTag.innerHTML = `<img src="assets/images/menu.svg"> MENU`
   })
 
 })

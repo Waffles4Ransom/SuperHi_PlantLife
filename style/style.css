@@ -17,6 +17,19 @@ h1 {
   line-height: 1.2;
 }
 
+p {
+  margin: 2rem 0 2rem 0;
+}
+
+a.button {
+  display: inline-block;
+  background-color: #00b98d ;
+  color: #ffffff;
+  text-decoration: none;
+  padding: .5rem .75rem .5rem .75rem;
+	border-radius: .225rem;
+}
+
 nav {
   background-color: #00b98d;
   color: #ffffff;
@@ -65,3 +78,34 @@ a.toggle img {
   margin: 0 5px 0 0;
   vertical-align: middle;
 }
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+section div {
+  width: 22rem;
+}
+
+section div.content {
+  margin-left: 6rem;
+}
+
+.slides {
+  height: 475px;
+  position: relative;
+}
+
+div.slides img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+div.slides img:first-child {
+  z-index: 1;
+}
+
