@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:regular,italic');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 
+@keyframes fade {
+  0% { opacity: 0;}
+  100% {opacity: 1;}
+}
+
 body {
   font-family: "IBM PLex Mono";
   font-size: 16px;
@@ -103,9 +108,14 @@ div.slides img {
   position: absolute;
   top: 0;
   left: 0;
+  transition: transform 0.5s, box-shadow 0.5s;
 }
 
 div.slides img:first-child {
   z-index: 1;
+}
+
+div.slides:hover img {
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
